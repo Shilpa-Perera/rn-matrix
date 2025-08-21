@@ -23,7 +23,7 @@ export default function App() {
       const loginDetails = await client.homeserverLoginDetails();
 
       // --- login ---
-      await client.login("@shilpa123:unredacted.org", "gr73237l6nb", "My Device", undefined);
+      await client.login("@shilpa123:unredacted.org", "", "My Device", undefined);
 
       const session = client.session();
       console.log("userId:", session.userId);
